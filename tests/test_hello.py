@@ -1,10 +1,10 @@
 import unittest
-from desoper import hello
+from desoper import devops_test
 
 
 class Test_hello(unittest.TestCase):
     def test__working(self):
-        self.assertEqual(hello.hello(),
+        self.assertEqual(devops_test.hello(),
                          'Hello, World!', True)
 
 
